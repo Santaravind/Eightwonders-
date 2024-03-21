@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #8bc6ec;
+    background-image: linear-gradient(i35deg,#22475f,#2b2d5c 100%);
+    background-image: url();
+   
+}
+.first{
+    margin: 10px;
+    padding: 2px;
+    font-size: 20px;
+    color: rgb(212, 36, 133);
+    background-color: rgb(226, 167, 179);
+    text-shadow: 2px 2px #b70ed1,4px 4px rgb(198, 13, 158);
+}
+.image1{
+    margin: 30px ;
+    padding: 5px;
+    float: left;
+    border: 0px solid red;
+    box-sizing: border-box;
+
+}
+.image2{
+    margin: 30px ;
+    padding: 5px;
+    float: right;
+    
+}
+.image3{
+    margin: 30px ;
+    padding: 5px;
+    float: left;
+    
+}
+.image4{
+    margin: 30px ;
+    padding: 5px;
+    float: right;
+
+    
+}
+
+.image5{
+    margin: 30px ;
+    padding: 5px;
+    float: left;
+    clear: both;
+}
+.image6{
+    margin: 30px ;
+    padding: 5px;
+    float: right;
+    
+}
+.image7{
+    margin: 30px ;
+    padding: 5px;
+    float: left;
+    
+}
+.image8{
+    margin: 30px ;
+    padding: 5px;
+    float: right;
+    
+}
+/*body img:hover{
+            transform: translateY(50px) scale(1.2);
+    
+}*/
+body h2:hover{
+
+}
+h2{
+    font-size: 30px;
+    color: rgb(225, 13, 147);
+    justify-content: center;
+    text-align: center;
+}
+button{
+    background-color: #18f98f;
+    border: none;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-size:20px ;
+    font-weight: bold;
+}
+a{
+    text-align: center;
+    justify-content: center;
+}
+#menu{
+    background-color: rgb(206, 218, 210);
+    
+             }
+   #menu li{
+      display: inline-block;
+   }
+ #menu li a{
+    display: block;
+    padding: 10px 13px;
+    text-decoration: none;
+    color: rgb(196, 5, 101);
+ }
+ #menu li a:hover{
+    background-color:crimson;
+    color: aliceblue;
+ }
+ #menu ul{
+    margin: 0;
+    padding: 0;
+ }
+
+ .mp1{
+position: relative;
+display: inline-block;
+border-radius: 8px;
+overflow: hidden;
+width: 260px;
+height: 260px;
+border: 2px solid #fff;
+
+}
+.mp1 img{
+    width: 100%;
+    transition: all linear 0.7s;
+}
+.mpp{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.mp1:hover img{
+    opacity: 0;
+}
+.mp1:hover img.mpp{
+    opacity: 1;
+}
